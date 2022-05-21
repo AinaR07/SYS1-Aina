@@ -1,15 +1,15 @@
-# APACHE2
-# 1- Description
- C'est un logiciel de serveur web gratuit et open-source qui alimente environ 46% des sites web à travers le monde.
+# Serveur HTTP Apache 2
+# 1- Qu il faut savoir
+ -C'est un logiciel de serveur web gratuit et open-source qui alimente environ 46% des sites web à travers le monde.
  Apache renvoie une réponse avec tous les fichiers demandés (texte, images, etc.). Le serveur et le client communiquent via le 
  protocole http et Apache est responsable de la communication fluide et sécurisée entre les deux machines.
- # 2- Avantages
+ # 2- Utilité
  -Open-source et gratuit même pour un usage commercial.
  -Logiciel fiable et stable.
  -Mise à jour régulière, correctifs de sécurité réguliers.
  -Flexible grâce à sa structure basée sur des modules.
  -Facile à configurer, adapté aux débutants.
- # 3- Installation
+ # 3- Procedure dùinstqllqtion
  - Télécharger apache sur internet
  - Mettre à jour l'index local de package:
    $ sudo apt update
@@ -70,4 +70,4 @@ $ sudo apache2ctl -t -D DUMP_VHOSTS
 
 ### Apache2 est pret a utiliser
 
-<a href=''>RETOUR</a>
+<a href='https://github.com/AinaR07/SYS1-Aina'>RETOUR</a>
