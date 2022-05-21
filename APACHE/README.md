@@ -1,15 +1,10 @@
 # Serveur HTTP Apache 2
 # 1- Qu il faut savoir
- -C'est un logiciel de serveur web gratuit et open-source qui alimente environ 46% des sites web à travers le monde.
+ - C'est un logiciel de serveur web gratuit et open-source qui alimente environ 46% des sites web à travers le monde.
  Apache renvoie une réponse avec tous les fichiers demandés (texte, images, etc.). Le serveur et le client communiquent via le 
  protocole http et Apache est responsable de la communication fluide et sécurisée entre les deux machines.
- # 2- Utilité
- -Open-source et gratuit même pour un usage commercial.
- -Logiciel fiable et stable.
- -Mise à jour régulière, correctifs de sécurité réguliers.
- -Flexible grâce à sa structure basée sur des modules.
- -Facile à configurer, adapté aux débutants.
- # 3- Procedure dùinstqllqtion
+
+ # 2- Procedure d' installation
  - Télécharger apache sur internet
  - Mettre à jour l'index local de package:
    $ sudo apt update
@@ -21,7 +16,7 @@
    $ sudo apt install apache2
  # 4- Commandes utiles
 ```
-# 4- Configuration
+# 3- Configuration
 Configuration http:Le module mod_ssl est disponible dans le paquet apache2-common. 
 - Commande pour activer le module mod_ssl :
 ```
@@ -35,7 +30,7 @@ $ sudo a2ensite default-ssl
 ``` 
 $ sudo systemctl restart apache2.service
 ```
-# 5- Commandes utiles
+# 4- Commandes utiles
 - Pour arrêter apache2 :  
 ```
 $ sudo systemctl stop apache2
