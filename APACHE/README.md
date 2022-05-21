@@ -13,14 +13,30 @@
  # 3- Installation
  - Télécharger apache sur internet
  - Mettre à jour l'index local de package:
+   $ sudo apt update
 ``` 
  $ sudo apt update
  ```
  - Installer le package: 
  ```  
    $ sudo apt install apache2
+ # 4- Commandes utiles
 ```
-# 4- Commandes utiles
+# 4- Configuration
+Configuration http:Le module mod_ssl est disponible dans le paquet apache2-common. 
+- Commande pour activer le module mod_ssl :
+```
+$ sudo a2enmod ssl
+```
+- Pour configurer Apache2 pour HTTPS:
+```
+$ sudo a2ensite default-ssl
+```
+- Avec Apache2 maintenant configuré pour HTTPS, redémarrer le service pour activer les nouveaux paramètres :
+``` 
+$ sudo systemctl restart apache2.service
+```
+# 5- Commandes utiles
 - Pour arrêter apache2 :  
 ```
 $ sudo systemctl stop apache2
@@ -52,20 +68,7 @@ $ sudo apache2ctl -t -D DUMP_VHOSTS
 - Pour voir les modules d'Apache chargés :
 ```$ sudo apache2ctl -M 
 ```
-# 5- Configuration
-Configuration http:Le module mod_ssl est disponible dans le paquet apache2-common. 
-- Commande pour activer le module mod_ssl :
-```
-$ sudo a2enmod ssl
-```
-- Pour configurer Apache2 pour HTTPS:
-```
-$ sudo a2ensite default-ssl
-```
-- Avec Apache2 maintenant configuré pour HTTPS, redémarrer le service pour activer les nouveaux paramètres :
-``` 
-$ sudo systemctl restart apache2.service
-```
-### Apache2 est maintenant configurée et installée
+
+### Apache2 est pret a utiliser
 
 <a href='https://github.com/Onja74/SYS-1'>RETOUR</a>
