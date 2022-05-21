@@ -1,14 +1,8 @@
 # NFS
-# 1- Description
-Le NFS, pour Network File System, est un protocole permettant à un ordinateur d'accéder à des fichiers extérieurs via un réseau.
-Dans la pratique, l'utilisateur, à partir de son ordinateur, va pouvoir accéder à des fichiers stockés sur un serveur distant, 
-à l'aide du protocole NFS qui fonctionne selon le mode client/serveur.
-# 2- Avantages:
-- possibilité donnée à plusieurs ordinateurs d'utiliser les mêmes fichiers 
-- réduction des coûts de stockage grâce au partage des applications
-- cohérence des données et fiabilité car tous les utilisateurs peuvent lire le même ensemble de fichiers 
-- frais d'administration système réduits.
-# 3- Installation:
+# 1- Qu il faut savoir
+Le NFS, pour Network File System, est un protocole permettant à un ordinateur d'accéder à des fichiers extérieurs via un réseau. Développé dans les années 80, le NFS s'est ensuite imposé comme la norme en matière de serveur de fichiers.
+
+# 2- Installation:
 - Sur le serveur Debian, mettez à jour le cache des paquets :
 ```
 $ sudo apt-get update
@@ -23,7 +17,7 @@ $ sudo systemctl enable nfs-server.service
 ```
 Le paquet est installé.
 
-# 4-  Déclarer un partage NFS /etc/exports:
+# 3-  Déclarer un partage NFS /etc/exports:
 -Commençons par créer le partage :
 ```
 $ mkdir /srv/partagenfs
@@ -53,6 +47,6 @@ $ exportfs -ua
 ```
 $ showmount -e 192.168.100.121
 ```
-### Le partage NFS est prêt.
 
-<a href='>RETOUR</a>
+
+<a href='https://github.com/AinaR07/SYS1-Aina'>RETOUR</a>
