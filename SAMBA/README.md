@@ -50,6 +50,6 @@ $sudo ufw enable
 $sudo ufw allow samba   
 $sudo ufw reload   
 ```
-
+#Enfin
 
 <a href='https://github.com/AinaR07/SYS1-Aina'>RETOUR aux autres serveurs </a>
