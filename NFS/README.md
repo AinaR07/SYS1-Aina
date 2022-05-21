@@ -17,7 +17,7 @@ $ sudo systemctl enable nfs-server.service
 ```
 Le paquet est installé.
 
-# 3-  Déclarer un partage NFS /etc/exports:
+# 3-  Partage NFS
 -Commençons par créer le partage :
 ```
 $ mkdir /srv/partagenfs
