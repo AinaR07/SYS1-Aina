@@ -61,7 +61,8 @@ $ sudo apache2ctl -t
 $ sudo apache2ctl -t -D DUMP_VHOSTS
 ```
 - Pour voir les modules d'Apache chargés :
-```$ sudo apache2ctl -M 
+```
+$ sudo apache2ctl -M 
 ```
 
 
