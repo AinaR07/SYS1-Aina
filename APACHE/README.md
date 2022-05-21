@@ -1,4 +1,5 @@
 # Serveur HTTP Apache 2
+
 # 1- Qu il faut savoir
  - C'est un logiciel de serveur web gratuit et open-source qui alimente environ 46% des sites web à travers le monde.
  Apache renvoie une réponse avec tous les fichiers demandés (texte, images, etc.). Le serveur et le client communiquent via le 
@@ -63,6 +64,5 @@ $ sudo apache2ctl -t -D DUMP_VHOSTS
 ```$ sudo apache2ctl -M 
 ```
 
-### Apache2 est pret a utiliser
 
-<a href='https://github.com/AinaR07/SYS1-Aina'>RETOUR</a>
+<a href='https://github.com/AinaR07/SYS1-Aina'>RETOUR aux autres serveurs</a>
